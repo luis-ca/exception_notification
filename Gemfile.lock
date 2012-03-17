@@ -3,6 +3,7 @@ PATH
   specs:
     exception_notification (2.5.2)
       actionmailer (>= 3.0.4)
+      mongo_mapper
 
 GEM
   remote: http://rubygems.org/
@@ -35,6 +36,7 @@ GEM
       activesupport (= 3.0.9)
     activesupport (3.0.9)
     arel (2.0.10)
+    bson (1.6.1)
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -45,6 +47,14 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    mongo (1.6.1)
+      bson (~> 1.6.1)
+    mongo_mapper (0.11.0)
+      activemodel (~> 3.0)
+      activesupport (~> 3.0)
+      plucky (~> 0.4.0)
+    plucky (0.4.4)
+      mongo (~> 1.5)
     polyglot (0.3.2)
     rack (1.2.3)
     rack-mount (0.6.14)

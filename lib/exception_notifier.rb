@@ -1,5 +1,6 @@
 require 'action_dispatch'
 require 'exception_notifier/notifier'
+require 'exception_notifier/models/exception_notifier/log'
 
 class ExceptionNotifier
   def self.default_ignore_exceptions
